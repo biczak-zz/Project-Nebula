@@ -1,0 +1,12 @@
+@import './_variables.scss';
+
+#app-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+#app-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
