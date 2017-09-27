@@ -1,0 +1,51 @@
+{
+  "name": "LittleLight",
+  "version": "0.0.1",
+  "description": "The Ultimate Destiny 2 Companion Application.",
+  "main": "src/index.jsx",
+  "repository": "https://github.com/biczak/LittleLight.git",
+  "author": "Alex Biczak <alex.biczak@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "start": "node server/server.js",
+    "test": "jest tests/Components"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "commitizen": "^2.9.6",
+    "css-loader": "^0.28.7",
+    "cz-conventional-changelog": "^2.0.0",
+    "eslint": "^4.7.2",
+    "eslint-config-airbnb": "^15.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "file-loader": "^0.11.2",
+    "jest": "^21.2.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0"
+  },
+  "dependencies": {
+    "antd": "^2.13.3",
+    "axios": "^0.16.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.5",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "semantic-ui-react": "^0.74.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
+  }
+}
