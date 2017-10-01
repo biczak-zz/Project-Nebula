@@ -21,7 +21,6 @@ class Checklist extends Component {
     return (
       <div id="checklist-container">
         <h1>Weekly Checklist</h1>
-        <h3>WTF</h3>
         <ul id="activities-list">
           {listActivities}
         </ul>
