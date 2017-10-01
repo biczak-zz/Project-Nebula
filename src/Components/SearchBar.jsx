@@ -24,6 +24,7 @@ const SearchBar = (props) => {
       <div id="input-container">
         <Input addonAfter={selectAfter} placeholder="PSN ID / XBOX Gamertag / Battle.net ID" id="userInput" />
       </div>
+      <h1>hi</h1>
     </div>
   );
 };
